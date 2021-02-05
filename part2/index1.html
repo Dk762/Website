@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="../part2/index.css"/> 
+</head>
+<body>
+   <header class = "topnav" id="header">
+       <nav>
+        <div>
+          <img class="logo" src="../logo/SVGS/SRrecordings.svg"/>
+        </div>
+        <div>
+          <a class = "home" href="#home">Home</a>
+          <a class = "icon" href="#records">Records</a>
+          <a class = "music" href="#music">Music</a>
+          <a class = "artists" href="#artists">Artists</a>
+          <a class = "concerts" href="#conserts">Conserts</a>
+          <button class="btn">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+   <section class="hero-text">
+    <div class="container">
+      <p class= "heading">A.M. Paradox</p>
+      <p class= "subtext">Christopher Brent Wood, better known by his stage name brent Faiyaz, is an American singer and record producer. He relised his debut project, an extended play entitled A.M.Paradox, in 2016</p>
+      <div>
+        <img class = "playbtn" src = "../Icons/SVGs/playbutton.svg" alt = "play video"> 
+      </div>  
+      <div>
+        <p class = "watchvideo">Watch Video</p>
+      </div>
+   </div>
+    </section>
+  <section class="introduction">
+    <div>
+      <img class = "profile" src = "../images/image2.png" alt = "information">
+    </div>
+    <div class = details>
+      <h2 class = "introheader">Brent Faiyaz, So Far Gone</h2>
+      <p class = "intropara">Faiyaz began uploading his music onto SoundCloud in 2014 and moved from his hometown Columbia, Maryland to Charlotte, North Carolina before ultimately settling in Los Angeles,
+         California to further his music career. On January 19, 2015, he released his debut single "Allure".[4] On June 1,2016, Faiyaz released "invite Me", the lead single from his
+         upcoming debut EP. On September 19,2016,his 21st birthday, the EP entitled A.M. Paradox was released and received with positive reviews from music critics. On January 26,2017,
+         Sounder released their debut EP intro. 
+      </p>
+      <button class = "btn">Learn More</button>
+    </div>
+  </section>
+  <section class = "slider">
+    <div>
+      <div class="CardHeader">
+        <h2 class = "release">New Releases</h2>
+        <p class = "paragraph">New albums every single month, check out the newest & best from snyder recording artist, now available on aplle music & sportify.</p>
+    </div>
+    <section>
+      <figure class="card fade">
+        <div class="cardHero">
+          <img class="cardImage" src="../images/image4.png"/>
+        </div>
+        <div class="cardContent">
+          <h2>Trapsoul</h2>
+            <p class="title">BRYSON TILLER</p>
+            <p>Bryson Djuan Tiller, is an American singer,
+              songwriter and rapper. Born in Louisville,
+              Kentucky, he started his career in 2011,
+              releasing the debut mixtape titled Killer
+              Instinct Vol.1.</p>
+        </div>
+      </figure>
+      <figure class="card fade">
+        <div class="cardHero">
+          <img class="cardImage" src="../images/image4.png"/>
+        </div>
+        <div class="cardContent">
+          <h2>Trapsoul</h2>
+            <p class="title">BRYSON TILLER</p>
+            <p>Bryson Djuan Tiller, is an American singer,
+              songwriter and rapper. Born in Louisville,
+              Kentucky, he started his career in 2011,
+              releasing the debut mixtape titled Killer
+              Instinct Vol.1.</p>
+        </div>
+      </figure>
+      <figure class="card fade">
+        <div class="cardHero">
+          <img class="cardImage" src="../images/image4.png"/>
+        </div>
+        <div class="cardContent">
+          <h2>Trapsoul</h2>
+            <p class="title">BRYSON TILLER</p>
+            <p>Bryson Djuan Tiller, is an American singer,
+              songwriter and rapper. Born in Louisville,
+              Kentucky, he started his career in 2011,
+              releasing the debut mixtape titled Killer
+              Instinct Vol.1.</p>
+        </div>
+      </figure>  
+    </section>
+    <div class= "ctrbtn">
+      <a onclick="plusSlides(-1)"><img class = "leftctr" src = "../Icons/SVGs/left_controller.svg" alt = "left controller"></a>
+      <a onclick="plusSlides(-1)"><img class = "rightctr" src = "../Icons/SVGs/right_controller.svg" alt = "right controller"></a>
+    </div>
+      </div> 
+    </div>
+    </div>  
+  </section>
+
+  <section class = "googlemap">
+    <div id="googleMap" style="width:100%;height:600px;"></div>
+  </section>
+  <section class = "form">
+    <div class = "form-container">
+      <h2 class = "formhead">Get In Touch</h2>
+      <p class = "formpara">New albums every single month, check out the newest & best from snyder recording artist, now available on aplle music & sportify.</p> 
+      <form>
+        <div class = "fullname">
+          <input type="text" id="fname" name="fname" placeholder="First Name" required>
+          <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+        </div>
+        <div class = "info">
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+          <select id="reason" name="reason">
+            <option value="volvo">Reason For Contacting</option>
+          </select>
+        </div>
+        <div>
+          <textarea id="subject" name="subject" placeholder="Write a brief message..."></textarea>
+        </div>
+        <button class = "btn">Send Message</button>
+      </form>
+    </div>
+    <div style="width: 100%;">
+      <img class= "form-image"  src = "../images/image3.png" alt = "formImage">
+    </div>
+  </section>
+  <section id="footer">
+    <figure class="footerSec">
+      <div class="footer1">
+        <img class="footerLogo" src="../logo/PNGS/SRrecordings_white.png"/>
+        <ul>
+           <li class="address">8521 W Fairfax Rd</li>
+           <li class="address">Los Angeles, CA</li>
+           <li class="address">90210</li>
+           <li class="address">909.505.4302</li>
+        </ul>
+      </div>
+      <div class="footer2">
+        <h4>EXPLORE</h4>
+        <ul>
+          <li>About Us</li>
+          <li>Our Story</li>
+          <li>Team</li>
+          <li>Careers</li>
+          <li>FAQ</li>
+       </ul>
+      </div>
+      <div class="footer3">
+        <h4>MUSIC</h4>
+        <ul>
+          <li>Missing Out</li>
+          <li>Trapsoul</li>
+          <li>Slander Sons</li>
+          <li>Paradise-today</li>
+          <li>Needed</li>
+       </ul>
+      </div>
+      <div class="footer4">
+        <h4>ARTISTS</h4>
+        <ul>
+          <li>Brent Faiyaz</li>
+          <li>Drake</li>
+          <li>Bryson Tiller</li>
+          <li>Young Ford</li>
+          <li>Rory Fresco</li>
+       </ul>
+      </div>
+      <div class="footer5">
+        <h4>RECORDS</h4>
+        <ul>
+          <li>What a Time</li>
+          <li>Coming Home</li>
+          <li>Always First</li>
+          <li>So Far Gone</li>
+          <li>Big Bluez</li>
+       </ul>
+      </div>
+      <div class="footer6">
+        <h4>CONCERTS</h4>
+        <ul>
+          <li>Midland Live</li>
+          <li>Granada 2018</li>
+          <li>Tiller Unplugged</li>
+          <li>Love Live</li>
+          <li>XX Live Mix</li>
+       </ul>
+       </div>
+    </figure>
+  </section>  
+  <section id="social">
+    <hr>
+    <figure class="sIcon">
+      <div class="iconState">
+       <p>Privacy Policy</p>
+      </div>
+      <div class="iconState">
+        <p>Terms & conditions</p>
+       </div>
+      <div class="socialIcons">
+        <img class="IconsSocial" src="../Icons/PNGs/Youtube.png"/>
+        <img class="IconsSocial" src="../Icons/PNGs/Twitter.png"/>
+        <img class="IconsSocial" src="../Icons/PNGs/Instagram.png"/>
+        <img class="IconsSocial" src="../Icons/PNGs/Snapchaat.png"/>
+       </div>
+    </figure>
+  </section>
+
+  <script>
+    function myMap() {
+    const uluru = { lat: 38.97056, lng: -94.70441 };
+    var mapProp= {
+      center:uluru,
+      zoom:5,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+    };
+    
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDb1mTE4YZuTt_kO1T4iu1TblAZFxjfXw8&callback=myMap"></script>
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("card");
+      
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      
+      slides[slideIndex-1].style.display = "flex";  
+      
+    }
+    </script>
+
+<script>
+  function myFunction() {
+  var x = document.getElementById("header");
+  if (x.className === "topnav") {
+  x.className += " responsive";
+  } else {
+  x.className = "topnav";
+  }
+}
+</script>
+   
+</body>
+</html>
